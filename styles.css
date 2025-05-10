@@ -1,0 +1,105 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+  width: 40%;
+}
+
+body {
+  background-color: #006400;
+}
+
+h1 {
+  margin: 30px;
+  font-family: "Luckiest Guy", cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #4ecca3;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ecca3;
+  font-family: "Indie Flower", cursive;
+}
+
+img {
+  width: 80%;
+}
+
+footer {
+  margin-top: 5%;
+  color: #eeeeee;
+  text-align: center;
+  font-family: "Indie Flower", cursive;
+}
+
+.github-link {
+  color: #4ecca3;
+}
+
+@media (max-width: 480px) {
+  .container {
+    width: 90%;
+  }
+
+  .dice {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  h1 {
+    font-size: 2rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
+
+  img {
+    width: 60%;
+  }
+}
+
+/* 📱 Phones (Landscape) or Small Tablets */
+@media (min-width: 481px) and (max-width: 768px) {
+  .container {
+    width: 85%;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+  }
+
+  p {
+    font-size: 1.5rem;
+  }
+
+  img {
+    width: 70%;
+  }
+}
+
+/* 💻 Tablets (Portrait) and Small Laptops */
+@media (min-width: 769px) and (max-width: 1024px) {
+  h1 {
+    font-size: 5rem;
+  }
+
+  p {
+    font-size: 1.8rem;
+  }
+
+  img {
+    width: 70%;
+  }
+}
